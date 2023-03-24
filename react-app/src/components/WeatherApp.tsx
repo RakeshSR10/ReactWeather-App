@@ -55,7 +55,6 @@ const WeatherAppp = () => {
       <SearchContainer>
         <div>
           <form onSubmit={handleSearch}>
-            
             <Input
               type="text"
               id="city"
@@ -63,7 +62,6 @@ const WeatherAppp = () => {
               placeholder="Enter city..."
               onChange={(e) => setCity(e.target.value)}
             />
-            
             <Input
               type="text"
               id="country"
