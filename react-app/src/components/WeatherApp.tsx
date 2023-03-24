@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import styled from 'styled-components';
 import axios from "axios";
-require('dotenv').config();
 
 type WeatherData = {
   name: string;
@@ -23,8 +22,7 @@ type WeatherData = {
   dt: number;
 };
 
-const API_KEY = process.env.API_KEY;
-console.log(API_KEY)
+const API_KEY = 'a4fc7ce0bd77c0295c03dab4aa72e062';
 
 const WeatherAppp = () => {
   const [city, setCity] = useState("");
