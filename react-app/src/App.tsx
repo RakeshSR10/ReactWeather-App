@@ -1,12 +1,12 @@
 import React, { FC } from 'react';
-import './App.css';
+// import './App.css';
 
-import WeatherAppp from './components/WeatherApp';
+import WeatherApp from './components/WeatherApp';
 
 const App:FC = () => {
   return (
     <div className="App">
-      <WeatherAppp />
+      <WeatherApp />
     </div>
   );
 }
