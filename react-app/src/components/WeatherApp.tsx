@@ -151,6 +151,7 @@ const Button = styled.button`
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   background-color: #0077be;
   color: white;
+  cursor: pointer;
 `;
 
 const WeatherCard = styled.div`
